@@ -59,7 +59,7 @@ names(data_mean_std) <- gsub("\\(|\\)", "", names(data_mean_std), perl  = TRUE)
 
 # 4.1. Add descriptive labels
 
-names(data_mean_std) <- gsub("Acc", "Acceleration", names(data_mean_std))
+names(data_mean_std) <- gsub("Acc", "Accelerometer", names(data_mean_std))
 names(data_mean_std) <- gsub("Gyro", "Gyroscope", names(data_mean_std))
 names(data_mean_std) <- gsub("^t", "Time", names(data_mean_std))
 names(data_mean_std) <- gsub("^f", "Frequency", names(data_mean_std))
